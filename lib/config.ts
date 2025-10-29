@@ -7,25 +7,20 @@ export const CREATE_SESSION_ENDPOINT = "/api/create-session";
 
 export const STARTER_PROMPTS: StartScreenPrompt[] = [
   {
-    label: "Ενημέρωση για Education AI Tutors.",
-    prompt: "Θα ήθελα να κλείσω ένα ραντεβού για Education AI Tutors.",
+    label: "Πληροφορίες Ξενοδοχείου",
+    prompt: "Θα ήθελα περισσότερες πληροφορίες για τις παροχές του ξενοδοχείου.",
     icon: "book-open",
   },
   {
-    label: "Ενημέρωση για Business Workflow Automations.",
-    prompt: "Θα ήθελα να κλείσω ένα ραντεβού για Business Workflow Automations.",
+    label: "Σχετικά με την περιοχή.",
+    prompt: "Τι επιλογές μου δίνει η περιοχή του ξενοδοχείου Ίλιον στην Παραλία Κατερίνης;.",
     icon: "lightbulb",
-  },
-  {
-    label: "Επίδειξη του League Pro.",
-    prompt: "Θα ήθελα να κλείσω ένα ραντεβού για επίδειξη του League Pro.",
-    icon: "analytics",
-  },
+  }
 ];
 
 export const PLACEHOLDER_INPUT = "Συνομιλία με ΑΙ...";
 
-export const GREETING = "Καλώς Ορίσατε! Πως μπορώ να βοηθήσω σήμερα;";
+export const GREETING = "Γεια! Είμαι ο ΑΙ Agent του Ξενοδοχείου ΙΛΙΟΝ. Πως μπορώ να βοηθήσω σήμερα;";
 
 export const getThemeConfig = (theme: ColorScheme): ThemeOption => ({
   color: {
